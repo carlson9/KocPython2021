@@ -1,4 +1,5 @@
-from urllib import *
+import urllib
+from bs4 import BeautifulSoup
 
 url1 = urllib.parse.urljoin("http://www.wustl.edu", "bob/test.html")
 url2 = urllib.parse.urljoin("http://www.wustl.edu", "/")

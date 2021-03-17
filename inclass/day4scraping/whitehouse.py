@@ -39,7 +39,7 @@ for petition in petitions:
 pets = []  
 for petition in petitions:
   p = BeautifulSoup.get_text(petition)
-  if 'Sign It' not in p and 'Create a Petition' not in p and 'Load More' not in p: pets.append(p)
+  if 'Sign It' not in p and 'Create a Petition' not in p and 'Load More' not in p and 'View' not in p: pets.append(p)
 
 #signatures
 #html tag:
@@ -104,7 +104,7 @@ for petition in petitions:
 pets = []  
 for petition in petitions:
   p = BeautifulSoup.get_text(petition)
-  if 'Sign It' not in p and 'Create a Petition' not in p and 'Load More' not in p: pets.append(p)
+  if 'Sign It' not in p and 'Create a Petition' not in p and 'Load More' not in p and 'View' not in p: pets.append(p)
 
 #signatures
 #html tag:
