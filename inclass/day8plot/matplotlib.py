@@ -16,7 +16,7 @@ plt.show()
 #only use plt.show() once per session, typically at the end -- different syntax if using interactively (e.g., iPython)
 
 #using iPython shell
-%matplotlib qt5
+#%matplotlib qt5
 import matplotlib.pyplot as plt
 #any plt plot command will cause a figure window to window, and can be updated with further function calls
 
