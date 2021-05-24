@@ -275,7 +275,7 @@ print(classification_report(y_test,predictions))
 #TODO: try to change the parameters to get a better score
 
 import os
-os.chdir('KocPython2021/inclass/NN')
+
 
 import pandas as pd
 wine = pd.read_csv('wine_data.csv', names = ["Cultivator", "Alchol", "Malic_Acid", "Ash", "Alcalinity_of_Ash", "Magnesium", "Total_phenols", "Falvanoids", "Nonflavanoid_phenols", "Proanthocyanins", "Color_intensity", "Hue", "OD280", "Proline"])
@@ -463,7 +463,7 @@ mse = mean_squared_error(ytrue, yfit)
 print(mse)
 
 
-tt = pd.read_csv('../day17/immSurvey.csv')
+tt = pd.read_csv('immSurvey.csv')
 tt.head()
 
 alphas = tt.stanMeansNewSysPooled
